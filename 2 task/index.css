@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=Montserrat:wght@300;400&display=swap');
+
+:root {
+    /* color variables */
+    --background-color: #0E1014; 
+    --primary-color: #E4E5EA;
+    --secondary-color: #656566;
+    --accent-gradient: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+
+    /* font variables */
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif
+}
+
+body {
+    margin: 0 6em;
+    padding: 0 3em;
+    background: var(--background-color);
+    color: var(--primary-color);
+    font-family: var(--font-primary);
+  }
+
+a {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+  
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+
+    padding: 2em 2em 0 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    font-weight: 500;
+  }
+
+.logo {
+    padding: 2em 2em 0 0;
+}
+
+.slogan {
+    font-family: var(--font-secondary);
+    font-size: 0.6em;
+    font-weight: 300;
+    width: 150px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+    
+}
+
+.contacts-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    padding-left: 2em;
+}
+
+.icon {
+    padding: 0 1em;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Section */
+
+.container-left {
+    max-width: 400px;
+    overflow: visible;
+}
+
+.main-text-left {
+    font-size: 3rem;
+    white-space: pre-line;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+.sub-text-left {
+    color: var(--primary-color);
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 250px;
+    font-weight: 400;
+}
+
+/* Utility Classes */
+
+.icon-small {
+    width: 15px;
+}
+
+
+
+.text-gradient {
+    background-image: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    background-clip: text;
+  }
+
+.text-large {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 900;
+}
