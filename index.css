@@ -133,6 +133,7 @@ footer {
 }
 
 .service-desc {
+    text-align: right;
     font-size: 0.8em;
     font-weight: 400;
 }
@@ -213,27 +214,27 @@ footer {
 }
 
 .red-ball-1 {
-    top: 83px;
-    left: 519px;
-    bottom: 814px;
-    right: 838px;
+    top: 5.2rem;
+    left: 32.4rem;
+    bottom: 50.9rem;
+    right: 52.4rem;
     width: 5.2rem;
 }
 
 .red-ball-2 {
     width: 1.75rem;
-    top: 547px;
-    left: 851px;
-    right: 561px;
-    bottom: 405px;
+    top: 34.2rem;
+    left: 53.2rem;
+    right: 35rem;
+    bottom: 25.3rem;
     backdrop-filter: blur(2px);
 }
 
 .purple-ball {
     width: 3.75rem;
     top: 0;
-    right: 512px;
-    left: 868px;
+    right: 32rem;
+    left: 54.2rem;
 }
 
 /* Utility Classes */
@@ -258,3 +259,6 @@ footer {
 .text-bold {
     font-weight: 900;
 }
+
+
+/* Mobile Screen */
